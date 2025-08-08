@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#f1f4ff">
+  <title>ShapeShifters</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="game.js"></script>
+</head>
+<body>
+  <canvas id="canvas" width="900" height="600"></canvas>
+  <div class="controls">
+    <label>Rotate: <input type="range" min="-180" max="180" value="0" oninput="updateSlider(this.value)">
+    <span id="angleLabel">0°</span></label>
+  </div>
+</body>
+</html>
